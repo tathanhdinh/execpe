@@ -1,0 +1,9 @@
+[package]
+name = "execpe"
+version = "0.1.0"
+authors = ["Ta Thanh Dinh <tathanhdinh@gmail.com>"]
+
+[dependencies]
+structopt = "*"
+failure = "*"
+winapi = { version = "*", features = ["winbase", "errhandlingapi", "libloaderapi", "processthreadsapi"] }
